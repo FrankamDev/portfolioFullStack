@@ -1,3 +1,5 @@
+@extends('layouts.admin.header-admin')
+@section('footer')
 <footer class="footer">
     <div class="footer_bg">
       <div class="footer_container container grid">

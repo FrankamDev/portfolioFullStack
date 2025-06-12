@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="nav_btns">
-                    <!--===== THEME CHANGE BUTTON =====-->
+                   
                     <i class="uil uil-moon change_theme" id="theme-button"></i>
 
                     <div class="nav_toogle" id="nav-toggle">
