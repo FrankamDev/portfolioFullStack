@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\AboutController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
@@ -15,3 +16,4 @@ Route::get('admin/dashboard', [DashboardController::class, 'index'])->name('admi
 Route::get('/{any}', function () {
     return view('notFound');
 })->where('any', '.*');
+Route::get('/admin/abouts', [AboutController::class,'edit'])->name('edit-about');
